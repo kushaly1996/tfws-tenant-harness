@@ -8,3 +8,12 @@ variable "tenant_name" {
   type        = string
   description = "name of the tenant"
 }
+
+variable "account_id" {
+  type    = string
+  default = "WdoRPPaFRX65uXOwBSIJ5A"
+}
+
+variable "platform_api_key" {
+  type = string
+}
